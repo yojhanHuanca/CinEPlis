@@ -1,8 +1,8 @@
-const Profile = () => {
+const Profile = ({name = 'default', rol = ''}: {name: string, rol: string}) => {
     return (
         <header>
-            <h1>Yojhan Huanca Yucra</h1>
-            <h2>Frontend Developer</h2>
+            <h1>{name}</h1>
+            <h2>{rol}</h2>
         </header>
     );
 };
