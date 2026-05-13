@@ -4,7 +4,7 @@ function App() {
   
 
   return (
-    <Profile/>
+    <Profile name="Mi Nombre" rol="Mi Rol" />
   )
 }
 
